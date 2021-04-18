@@ -6,7 +6,7 @@ CTPN and CRNN based Chinese OCR, developed with PyQt5
 - it seems to work bad on test data. I think its the problem of datasets because i only used the validation dataset
 - of translation2019zh, which is quite small. But, you know that, i do this just for fun😁. Anyway, if i want and 
 - i have time, i will train a really useful chinese2english translator
-- ![test_example](https://github.com/Mountchicken/Chinese2English-Translator-with-Transformers/tree/main/Image_github/one.png)
+- ![test_example](https://github.com/Mountchicken/CTPN_CRNN_ChineseOCR_PyQt5/blob/main/github/detectd.JPG)
 
 # Requirements
 - `torchtext >= 1.8'

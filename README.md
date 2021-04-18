@@ -21,16 +21,19 @@ CTPN and CRNN based Chinese OCR, developed with PyQt5
 - Put them in CTPN_weights [CTPN weights(提取码:vqih)](https://pan.baidu.com/s/1OP4H87hunibVOQK_TKH-OA)
 - Put them in CRNN_weights [CRNN weights(提取码:k4r4)](https://pan.baidu.com/s/1Ie-X_5Z-JuypKzsD3bRkzA)
 
-## Folders
-- 'saved_vocab`: Contain serval vocabulary txt and you can also generate then during training
-- `translation2019zh`: This is Google's chinese2english translation samples. It's huge and i only take the validation dataset to train
+## Choose which model to use
+- In `inferrence.py`, from line 27 to line 32
+- `argument: crnn_weights`: the file location of crnn weigth downloaded in the previous step
+- `argument: ctpn_basemodel`:choose a ctpb backbone: vgg16, resnet50, shufflenet_v2_x1_0, mobilenet_v3_large, mobilenet_v3_small
+- `argument: ctpn_weights`:corresponding ctpn weights with ctpn_base model downloaded in the previous step
 
-# How to use
-## How to train
-- 'Go inside the train.py, set some hyperparameters if you want or just run it!'
-- 
-## How to translate my own sentence
-- `Go inside the inference.py, set the your own chinese sentence at line 73 
+## Run main_gui.py
+- if you run the .py file succesfully, it should look like this
+- ![test_example](https://github.com/Mountchicken/CTPN_CRNN_ChineseOCR_PyQt5/blob/main/github/menu.JPG)
+- Then, you need to push the initialize button to load the model, after that, just wait the `Finished` sign appers in the right.
+- ![test_example](https://github.com/Mountchicken/CTPN_CRNN_ChineseOCR_PyQt5/blob/main/github/initialized.JPG)
+- Finally, load the image with `Load Image` button and press `Detect`
+- ![test_example](https://github.com/Mountchicken/CTPN_CRNN_ChineseOCR_PyQt5/blob/main/github/detectd.JPG)
 
-# Contact me for trained_weights(too big to upload)
-- mountchicken@outlook.com
+# For more issue, contact me
+- `Email Address` mountchicken@outlook.com

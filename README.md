@@ -31,7 +31,7 @@ CTPN and CRNN based Chinese OCR, developed with PyQt5
 - if you run the .py file succesfully, it should look like this
 - ![test_example](https://github.com/Mountchicken/CTPN_CRNN_ChineseOCR_PyQt5/blob/main/github/menu.JPG)
 - Then, you need to push the initialize button to load the model, after that, just wait the `Finished` sign appers in the right.
-- ![test_example](https://github.com/Mountchicken/CTPN_CRNN_ChineseOCR_PyQt5/blob/main/github/initialized.JPG)
+- ![test_example](https://github.com/Mountchicken/CTPN_CRNN_ChineseOCR_PyQt5/blob/main/github/Initialized.JPG)
 - Finally, load the image with `Load Image` button and press `Detect`
 - ![test_example](https://github.com/Mountchicken/CTPN_CRNN_ChineseOCR_PyQt5/blob/main/github/detectd.JPG)
 

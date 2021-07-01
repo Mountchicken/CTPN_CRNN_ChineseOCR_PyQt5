@@ -16,10 +16,10 @@ CTPN and CRNN based Chinese OCR, developed with PyQt5
 # How to use it
 - I'm sorry guys, i haven't find a way to deploy it, and you have to run it in your compiler 🙇‍♂️(VScode, pycharm or...)
 ## Build Enviroment
-'''python
+```python
 cd CTPN_lib/bbox
 python setup.py build
-''''
+```
 - a file named build will be generated, put `bbox.cp37-win_amd64.pyd` and `nms.cp37-win_amd64.pyd` CTPN_lib/bbox
 ## download pretrained weights
 - The weights are larger than the uploading limit(25M below😅). Download them using BaiduYun

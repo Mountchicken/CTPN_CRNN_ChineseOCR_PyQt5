@@ -15,7 +15,7 @@ CTPN and CRNN based Chinese OCR, developed with PyQt5
 
 # How to use it
 - I'm sorry guys, i haven't find a way to deploy it, and you have to run it in your compiler 🙇‍♂️(VScode, pycharm or...)
-## Build Enviroment
+## Build Environment
 ```python
 cd CTPN_lib/bbox
 python setup.py build

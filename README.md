@@ -24,7 +24,7 @@ python setup.py build
 ## download pretrained weights
 - The weights are larger than the uploading limit(25M below😅). Download them using BaiduYun
 - Put them in CTPN_weights [CTPN weights(提取码:vqih)](https://pan.baidu.com/s/1OP4H87hunibVOQK_TKH-OA)
-- Put them in CRNN_weights [CRNN weights(提取码:k4r4)](https://pan.baidu.com/s/1Ie-X_5Z-JuypKzsD3bRkzA)
+- Put them in CRNN_weights [CRNN weights(提取码:tnts)](https://pan.baidu.com/s/1kLUhx-zI9BeF4rTNC9u2Bg)
 
 ## Choose which model to use
 - In `inferrence.py`, from line 27 to line 32
